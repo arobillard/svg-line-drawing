@@ -1,0 +1,170 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 69px;
+  top: 187px;
+  width: 4.5em;
+}
+
+#narwhal-eye,
+h1 {
+  animation: fadeIn 1s linear forwards;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+
+#narwhal-body {
+  animation: drawNarhwal 1s linear forwards;
+  stroke-dasharray: 1908.791px 1908.791px;
+  stroke-dashoffset: 1908.791px;
+}
+
+@keyframes drawNarhwal {
+
+  0% {
+    stroke-dashoffset: 1908.791px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-violet {
+  animation: drawViolet 1.25s linear forwards;
+  stroke-dasharray: 1917.692px;
+  stroke-dashoffset: 1917.692px;
+}
+
+@keyframes drawViolet {
+
+  0% {
+    stroke-dashoffset: 1917.692px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-indigo {
+  animation: drawIndigo 1.25s linear forwards;
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502px;
+}
+
+@keyframes drawIndigo {
+
+  0% {
+    stroke-dashoffset: 1812.502px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-blue {
+  animation: drawBlue 1.25s linear forwards;
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
+}
+
+@keyframes drawBlue {
+
+  0% {
+    stroke-dashoffset: 1705.479px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-green {
+  animation: drawGreen 1.25s linear forwards;
+  stroke-dasharray: 1596.043px;
+  stroke-dashoffset: 1596.043px;
+}
+
+@keyframes drawGreen {
+
+  0% {
+    stroke-dashoffset: 1596.043px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-yellow {
+  animation: drawYellow 1.25s linear forwards;
+  stroke-dasharray: 1483.352px;
+  stroke-dashoffset: 1483.352px;
+}
+
+@keyframes drawYellow {
+
+  0% {
+    stroke-dashoffset: 1483.352px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-orange {
+  animation: drawOrange 1.25s linear forwards;
+  stroke-dasharray: 1366.26px;
+  stroke-dashoffset: 1366.26px;
+}
+
+@keyframes drawOrange {
+
+  0% {
+    stroke-dashoffset: 1366.26px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-red {
+  animation: drawRedr 1.25s linear forwards;
+  stroke-dasharray: 1243.044px;
+  stroke-dashoffset: 1243.044px;
+}
+
+@keyframes drawRed {
+
+  0% {
+    stroke-dashoffset: 1243.044px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
