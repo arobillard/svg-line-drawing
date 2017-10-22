@@ -10,6 +10,7 @@ h1 {
 #narwhal-eye,
 h1 {
   animation: fadeIn 1s linear forwards;
+  opacity: 0;
 }
 
 @keyframes fadeIn {
@@ -152,7 +153,7 @@ h1 {
 }
 
 #rainbow-red {
-  animation: drawRedr 1.25s linear forwards;
+  animation: drawRed 1.25s linear forwards;
   stroke-dasharray: 1243.044px;
   stroke-dashoffset: 1243.044px;
 }
